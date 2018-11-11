@@ -7,10 +7,8 @@ Sass <br>
 
 <h3>Usage</h3 <br>
 
-<fieldset>
 $ npm i<br>
 $ npm run start><br>
-</fieldset>
 
 <h3>General scripts</h3 <br>
 <ul>

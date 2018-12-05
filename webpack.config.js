@@ -73,7 +73,7 @@ module.exports = {
 								quality: 65
 							},
 							optipng: {
-								enabled: false,
+								enabled: true,
 							},
 							pngquant: {
 								quality: '65-90',

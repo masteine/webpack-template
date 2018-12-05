@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.sass";
 
+
 const Header = () => {
 	return (
 		<section className="header">

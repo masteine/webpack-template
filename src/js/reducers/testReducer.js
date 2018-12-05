@@ -1,7 +1,5 @@
 import * as types from '../constants/types';
 
-count = 0;
-
 const initialState = {
 	testState: [],
 };

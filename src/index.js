@@ -1,8 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter, Route } from 'react-router-dom';
+import { Provider } from 'react-redux'
+import { store } from "./js/store/storeConfig";
+
+import App from "./js/containers/App";
 import "./sass/main.sass";
-import App from "./js/App";
 
-export default App;
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+	<Provider store={store}>
+		<App/>
+	</Provider>,
+	document.getElementById("root"));

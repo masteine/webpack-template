@@ -1,0 +1,1 @@
+export const DEFAULT_CONST = 'DEFAULT_CONST';

@@ -32,9 +32,8 @@ module.exports = {
 				]
 			},
 			{
-				test: /\.(sass|scss)$/,
+				test: /\.sass$/,
 				use: [
-					"style-loader",
 					MiniCssExtractPlugin.loader,
 					"css-loader",
 					'postcss-loader',
@@ -90,7 +89,7 @@ module.exports = {
 	},
 	plugins: [
 		new MiniCssExtractPlugin({
-			filename: "[name].css"
+			filename: "[name].css",
 		}),
 		new HtmlWebPackPlugin({
 			inject: false,
